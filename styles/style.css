@@ -1,0 +1,64 @@
+
+/* CSS code for mobile-friendly layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 0px;
+  text-align: left;
+
+}
+#logo{     
+  position: static;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+main {
+  padding: 20px;
+  font-style: normal;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Home-Approach-list{
+  list-style-type: none;
+
+}
+footer {
+  background-color: #ebad81;
+  color: #131313;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* CSS code for responsiveness */
+@media only screen and (max-width: 600px) {
+  header, footer {
+    padding: 5px;
+  }
+  .navbar-toggler{
+    position: absolute;
+    right : 90px;
+  }
+  #logo{     
+
+  }
+  #logoname{     
+    display: none;
+ }
+ #full_logo{
+  display:block;
+  height:  100%;
+ }
+  
+}
