@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bftherapy</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./Img/sitelogo.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="container">
+            <a href=""> <img id="logo" src="./Img/Logo-Only.png" alt="BF Logo" height="90" width="100"></a>
+            <a class="navbar-brand" href="#" id="logoname"> <img src="./Img/test.png" alt="BF Logo" height="60"
+                    width="190"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../aba_and_autism.html">ABA & Autism</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../contact_us.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+
+
+
+
+
+        <div class="container mt-2 bg-light">
+            <h1 class="mb-R">Intake Form</h1>
+            <form id="intakeform" action="/submit_intake_form" method="post">
+                <div class="form-group">
+                    <label for="parentFirstName">Parent/Guardian First Name:</label>
+                    <input type="text" class="form-control" id="parentFirstName" name="parentFirstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="childFirstName">Child's First Name:</label>
+                        <input type="text" class="form-control" id="childFirstName" name="childFirstName" required>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="childLastName">Child's Last Name:</label>
+                        <input type="text" class="form-control" id="childLastName" name="childLastName" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <select class="form-control" id="age" name="age">
+                        <option value="0-4">0-4</option>
+                        <option value="5-12">5-12</option>
+                        <option value="13+">13+</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <select class="form-control" id="location" name="location">
+                        <option value="Miami Springs, FL">Miami Springs, FL</option>
+                        <option value="Doral, FL">Doral, FL</option>
+                        <option value="Hialeah, FL">Hialeah, FL</option>
+                        <option value="Hialeah Gardens, FL">Hialeah Gardens, FL</option>
+                        <option value="Miami Lakes, FL">Miami Lakes, FL</option>
+                        <option value="Miami Gardens, FL">Miami Gardens, FL</option>
+                        <option value="Miramar, FL">Miramar, FL</option>
+                        <option value="Pembroke Pines, FL">Pembroke Pines, FL</option>
+                        <option value="Cooper City, FL">Cooper City, FL</option>
+                        <option value="Weston, FL">Weston, FL</option>
+                        <option value="Davie, FL">Davie, FL</option>
+                        <option value="Winter Haven, FL">Winter Haven, FL</option>
+                        <option value="Kissimmee, FL">Kissimmee, FL</option>
+                        <option value="Winter Park, FL">Winter Park, FL</option>
+                        <option value="Orlando, FL">Orlando, FL</option>
+                        <option value="Lake Buena Vista, FL">Lake Buena Vista, FL</option>
+                        <option value="Saint Cloud, FL">Saint Cloud, FL</option>
+                        <!-- Add other location options here -->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="insurance">Insurance:</label>
+                    <select class="form-control" id="insurance" name="insurance">
+                        <option value="Tricare">Tricare</option>
+                        <option value="Magellan">Magellan</option>
+                        <option value="Cigna">Cigna</option>
+                        <option value="Other">Other (explain)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="memberID">Member ID:</label>
+                    <input type="text" class="form-control" id="memberID" name="memberID">
+                </div>
+
+                <div class="form-group">
+                    <label for="contactMethod">Preferred Method of Contact:</label>
+                    <select class="form-control" id="contactMethod" name="contactMethod">
+                        <option value="Email">Email</option>
+                        <option value="Phone">Phone</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferredLanguage">Preferred Language:</label>
+                    <select class="form-control" id="preferredLanguage" name="preferredLanguage">
+                        <option value="English">English</option>
+                        <option value="Spanish">Spanish</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="additionalInfo">Additional information you feel we should know:</label>
+                    <textarea class="form-control" id="additionalInfo" name="additionalInfo" rows="4"></textarea>
+                </div>
+
+                <button id="submitForm" type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+        </div>
+
+    </div>
+
+    <footer class="bg-light text-dark mt-4 py-2">
+        <div class="container text-center">
+            &copy; 2023 Bright Future Therapy.
+        </div>
+    </footer>
+
+    <!-- Link to Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+<script>
+    $("#submitForm").click(function () {
+        alert("The Form has been Submitted.");
+    });
+</script>

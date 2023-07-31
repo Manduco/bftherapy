@@ -2,8 +2,9 @@
 /* CSS code for mobile-friendly layout */
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin: 10px;
   padding: 0;
+
 }
 
 header {
@@ -25,11 +26,20 @@ main {
   font-style: normal;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+p{ 
+  display: inline-block;
+  font-size:  15px;
+ }
+ ul{ 
+
+  display: inline-block;
+  font-size:  15px;
+  }
 
 #Home-Approach-list{
   list-style-type: none;
 
-}
+}p{   }
 footer {
   background-color: #ebad81;
   color: #131313;
@@ -40,7 +50,15 @@ footer {
   left: 0;
   right: 0;
 }
-
+.form-group label {
+  font-weight: bold;
+}
+#intakeform{
+  padding:5px;
+  margin: 35px;
+}
+#submitForm{  padding:5px;
+  margin: 15px;}
 /* CSS code for responsiveness */
 @media only screen and (max-width: 600px) {
   header, footer {
