@@ -23,7 +23,6 @@
 BF Therapy is a simple Applied Behavior Analysis (ABA) landing page designed to provide information about ABA therapy and autism, offer resources, and facilitate communication through a contact form. The project uses **HTML, CSS, Bootstrap, and PHP** for its structure and functionality.
 
 ## Features
-
 - **Home Page**: A welcoming section introducing the organization and ABA therapy.
 - **ABA & Autism**: Provides information about Applied Behavior Analysis and its benefits for individuals with autism.
 - **Resources**: Offers helpful links and materials for parents, caregivers, and professionals.
@@ -31,11 +30,14 @@ BF Therapy is a simple Applied Behavior Analysis (ABA) landing page designed to 
 - **Contact Form**: A PHP-based contact form for inquiries with spam prevention mechanisms.
 
 ## Technologies Used
-
--
--
--
--
+- **Frontend:**
+  - HTML, CSS, JavaScript
+  - Bootstrap for responsive design
+- **Backend:**
+  - ASP .NET Framework (exploring replacement of PHP)
+  - PHP (temporarily used for contact form submissions)
+  - Considering Node.js for future backend needs
+- **Hosting:** Hosted on HostGator with the domain name registered through GoDaddy.
 
 ## Installation & Setup
 
