@@ -57,20 +57,21 @@
 
         <div class="container mt-2 bg-light">
             <h2 class="mb-R">Intake Form</h2>
-            <p class="container">Fr appointments or inquiries, please call <a href="tel:123456789">123-456-789</a>
+            <p class="container">For appointments or inquiries, please call <a href="tel:123456789">123-456-789</a>
                 or
                 email us at <a href="mailto:
                 admin@bftherapy.org">
                     admin@bftherapy.org</a>.</p>
-            <form id="intakeform" action="/submit_intake_form" method="post">
+                    
+            <form id="intakeform" action="script.php" method="post">
                 <div class="form-group">
                     <label for="parentFirstName">Parent/Guardian First Name:</label>
-                    <input type="text" class="form-control" id="parentFirstName" name="parentFirstName" required>
+                    <input type="text" class="form-control small-input" id="parentFirstName" name="parentFirstName" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control small-input" id="email" name="email" required>
                 </div>
 
                 <div class="form-group">
@@ -181,7 +182,7 @@
 
 </html>
 <script>
-    $("#submitForm").click(function () {
-        alert("The Form has been Submitted.");
-    });
+    //$("#submitForm").click(function () {
+      //  alert("The Form has been Submitted.");
+  //  });
 </script>
