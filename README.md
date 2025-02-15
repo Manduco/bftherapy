@@ -12,9 +12,7 @@
    - [Contact Form Submission](#contact-form-submission)
 8. [UML Diagram](#uml-diagram)
 9. [Project Requirements Table](#project-requirements-table)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Contact](#contact)
+
 
 ## Overview
 
