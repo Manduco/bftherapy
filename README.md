@@ -3,15 +3,19 @@
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Installation & Setup](#installation--setup)
-5. [Deployment](#deployment)
-6. [User Stories](#user-stories)
-7. [Use Cases](#use-cases)
+   - [Solution Architecture](#solution-architecture)
+   - [Wireframes (Draft)](#wireframes-draft)
+   - [Features](#features)
+   - [Technologies Used](#technologies-used)
+   - [Installation & Setup](#installation--setup)
+   - [Deployment](#deployment)
+
+7. [User Stories](#user-stories)
+8. [Use Cases](#use-cases)
+   - [Use Case Diagram](#use-case-diagram)
    - [Contact Form Submission](#contact-form-submission)
-8. [UML Diagram](#uml-diagram)
-9. [Project Requirements Table](#project-requirements-table)
+10. [UML Diagram](#uml-diagram)
+11. [Project Requirements Table](#project-requirements-table)
 
 
 ## Overview
